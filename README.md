@@ -10,7 +10,7 @@ Create a shortcut to `run.bat` in your Windows "Startup" start menu folder
 ## Kill Kodi and start Steam
 Make sure you set Steam to launch as Big Picture mode
 
-`curl http://computer_ip:8888/steam
+`curl http://computer_ip:8888/steam`
 
 ## Kill Steam and launch Kodi
 `curl http://computer_ip:8888/kodi`
