@@ -33,3 +33,5 @@ rest_command:
 
 # Notes
 * Make sure your firewall allows traffic for this server (port 8888)
+* Launching Kodi (for instance) when Kodi is already running won't trigger anything, no risks of being interrupted during a movie by mistake
+* The script remembers the last used app in `config.ini`
