@@ -48,6 +48,12 @@ def restart_pc():
     subprocess.Popen(["shutdown", "/r", "/t", "0"])
     return 'Restarting the PC'
 
+@app.route('/shutdown', methods=['GET'])
+def shutdown_pc():
+    # Command to restart the PC
+    subprocess.Popen(["shutdown", "/s", "/t", "0"])
+    return 'Shutting down the PC'
+
 if __name__ == '__main__':
     # Start Kodi if last_launched is None
     if last_launched == 'None' or not last_launched:
