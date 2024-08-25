@@ -18,6 +18,9 @@ Make sure you set Steam to launch as Big Picture mode
 ## Restart PC
 `curl http://computer_ip:8888/restart`
 
+## Shutdown PC
+`curl http://computer_ip:8888/shutdown`
+
 # HomeAssistant integration
 If you want to automate using HomeAssistant (voice command, buttons), add this to your `configuration.yaml` file
 
